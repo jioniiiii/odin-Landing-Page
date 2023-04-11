@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', arial;
+}
+
+.header{
+    height: 425px;
+    
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+p, a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.upper-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 100px 0px 100px;
+    background-color: #1F2937;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.lower-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 100px 0px 100px;
+    gap: 36px;
+    background-color: #1F2937;
+    height: 450px;
+}
+
+#img{
+    width: 400px;
+    height: 200px;
+}
+
+button.sing-up{
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+button {
+    padding: 8px 24px;
+    border-radius: 8px;
+    margin-top: 6px;
+}
+
+/*footer*/
+
+.footer{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 60px;
+}
+
+#footer-h{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 25px 0px 25px 0px;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+.boxes{
+    max-width: 140px;
+}
+
+.box{
+    outline: solid 3px #2365cf;
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+}
+
+#footer-p{
+    color: #1F2937;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/* quote */
+
+.quote{
+    background-color: #e5e7e5;
+    height: 300px;
+}
+
+.cont-2{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    padding-top: 113.985px;
+}
+
+.quote-big{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-small{
+    font-size: 18px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-left: 150px;
+}
+
+/* call to action */
+
+.call-to-action{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background{
+    background-color: royalblue;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 250px;
+    margin-top: 50px;
+}
+
+.cta > .sing-up{
+    border-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 75px;
+}
+
+#left-cta{
+    margin-left: 75px;
+}
+
+#top-span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#bottom-span{
+    font-size: 15px;
+}
+
+
